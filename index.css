@@ -1,0 +1,57 @@
+/* FILEPATH: /c:/Users/gabri/Documents/my-first-web-page/index.css */
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Blog container */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Blog post */
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.blog-post .author {
+    font-style: italic;
+    color: #888;
+}
+
+.blog-post .date {
+    font-style: italic;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* Blog post image */
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Blog post link */
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
